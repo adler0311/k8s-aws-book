@@ -15,6 +15,7 @@ phases:
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
     commands:
+      - cd backend-app
       - chmod +x ./gradlew
       - echo unit testing ...
       - SPRING_PROFILES_ACTIVE=${SPRING_PROFILE} ./gradlew test
