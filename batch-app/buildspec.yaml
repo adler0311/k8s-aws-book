@@ -15,7 +15,7 @@ phases:
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
     commands:
-      - cd backend-app
+      - cd batch-app
       - chmod +x ./gradlew
 #      - echo unit testing ...
 #      - ./gradlew test
