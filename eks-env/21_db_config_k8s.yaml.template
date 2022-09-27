@@ -4,6 +4,6 @@ type: Opaque
 metadata:
   name: db-config
 stringData:
-  db-url: ${DB_URL}
+  db-url: jdbc:postgresql://eks-work-db.c7et8joy0ocq.ap-northeast-2.rds.amazonaws.com/myworkdb
   db-username: mywork
-  db-password: ${DB_PASSWORD}
+  db-password: IyY+CK51KgXiOJ5!

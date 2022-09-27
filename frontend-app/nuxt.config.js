@@ -79,6 +79,6 @@ export default {
     }
   },
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:8080'
+    baseUrl: process.env.BASE_URL || 'http://a8b48a8b84a8c4ab6bc69de6d45cc5f6-1967284956.ap-northeast-2.elb.amazonaws.com:8080'
   }
 }

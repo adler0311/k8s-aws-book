@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: ${ECR_HOST}/k8sbook/backend-app:1.0.0
+        image: 281952708110.dkr.ecr.ap-northeast-2.amazonaws.com/k8sbook/backend-app:32cbd68
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
