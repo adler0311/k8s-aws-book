@@ -29,9 +29,9 @@ phases:
   build:
     commands:
       # Apply to EKS-Cluster.
-      - kubectl get all -n eks-work
+      - kubectl get all
       - kubectl kustomize cicd/kustomization/prod
-      - kubectl -n eks-work apply -k cicd/kustomization/prod
-      - kubectl get all -n eks-work
+      - kubectl apply -k cicd/kustomization/prod
+      - kubectl get all
 
 
