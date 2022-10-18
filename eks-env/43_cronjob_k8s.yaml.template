@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: batch-app
-            image: ${ECR_HOST}/k8sbook/batch-app:1.0.0
+            image: 281952708110.dkr.ecr.ap-northeast-2.amazonaws.com/k8sbook/batch-app:latest
             imagePullPolicy: Always
             env:
             - name: DB_URL

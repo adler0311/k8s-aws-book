@@ -136,7 +136,7 @@ spec:
         - --cloud-provider=aws
         - --skip-nodes-with-local-storage=false
         # 오토스케일링 그룹 이름 설정
-        - --nodes=2:5:eksctl-eks-work-cluster-nodegroup-eks-work-nodegroup-NodeGroup-WFVQ9NBFZ0V3
+        - --nodes=2:5:eks-eks-work-nodegroup-04c1f4d6-c439-5839-7914-a01de337efdb
         env:
         - name: AWS_REGION
           # 리전을 지정

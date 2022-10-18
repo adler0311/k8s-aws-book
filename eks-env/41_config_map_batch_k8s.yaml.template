@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: batch-app-config
 data:
-  bucket-name: eks-work-batch-${BUCKET_SUFFIX}
+  bucket-name: eks-work-batch-wongood
   folder-name: locationData
   batch-run: "true"
   aws-region: ap-northeast-2
