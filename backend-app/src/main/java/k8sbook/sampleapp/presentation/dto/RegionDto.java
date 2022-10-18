@@ -1,6 +1,5 @@
 package k8sbook.sampleapp.presentation.dto;
 
-
 import k8sbook.sampleapp.domain.model.Region;
 
 public class RegionDto {
@@ -14,7 +13,7 @@ public class RegionDto {
 
     public RegionDto(Region region) {
         this.regionId = region.getRegionId();
-        this.regionName = region.getRegionName();
+        this.regionName = "*" + region.getRegionName();
     }
 
     public Integer getRegionId() {
